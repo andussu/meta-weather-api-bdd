@@ -108,7 +108,7 @@ ___
    > 
    > "Most location have data from early 2013 to 5-10 days in the future." -> NOT Specific as a Requirement Criteria, otherwise user getting: '500 - Server error Oups, something went wrong. Sorry."
 
-##BUGS FOUND:
+## BUGS FOUND:
 ![Scenarios](src/test/resources/screenshots/Scenarios.png)
 ![Failures](src/test/resources/screenshots/Failures.png)
 ![Postman_Bug](src/test/resources/screenshots/Postman_Bug.png)
