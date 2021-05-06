@@ -1,0 +1,248 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "title": "Location and Day Schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": [],
+  "examples": [
+    [
+      {
+        "id": 5875682782478336,
+        "weather_state_name": "Sleet",
+        "weather_state_abbr": "sl",
+        "wind_direction_compass": "SW",
+        "created": "2021-01-01T21:23:53.784093Z",
+        "applicable_date": "2021-01-01",
+        "min_temp": 0.0050000000000000044,
+        "max_temp": 2.395,
+        "the_temp": 2.0700000000000003,
+        "wind_speed": 3.0207261661125693,
+        "wind_direction": 227.61664016383207,
+        "air_pressure": 1007.0,
+        "humidity": 93,
+        "visibility": 6.0316501630478,
+        "predictability": 85
+      },
+      {
+        "id": 4739972448911360,
+        "weather_state_name": "Sleet",
+        "weather_state_abbr": "sl",
+        "wind_direction_compass": "SW",
+        "created": "2021-01-01T18:23:52.197004Z",
+        "applicable_date": "2021-01-01",
+        "min_temp": -0.095,
+        "max_temp": 2.675,
+        "the_temp": 2.0700000000000003,
+        "wind_speed": 3.014059499445903,
+        "wind_direction": 228.60889283762089,
+        "air_pressure": 1007.0,
+        "humidity": 93,
+        "visibility": 6.027921935894376,
+        "predictability": 85
+      }
+    ]
+  ],
+  "additionalItems": false,
+  "items": {
+    "$id": "#/items",
+    "anyOf": [
+      {
+        "$id": "#/items/anyOf/0",
+        "type": "object",
+        "title": "The first anyOf schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "examples": [
+          {
+            "id": 5875682782478336,
+            "weather_state_name": "Sleet",
+            "weather_state_abbr": "sl",
+            "wind_direction_compass": "SW",
+            "created": "2021-01-01T21:23:53.784093Z",
+            "applicable_date": "2021-01-01",
+            "min_temp": 0.0050000000000000044,
+            "max_temp": 2.395,
+            "the_temp": 2.0700000000000003,
+            "wind_speed": 3.0207261661125693,
+            "wind_direction": 227.61664016383207,
+            "air_pressure": 1007.0,
+            "humidity": 93,
+            "visibility": 6.0316501630478,
+            "predictability": 85
+          }
+        ],
+        "required": [
+          "id",
+          "weather_state_name",
+          "weather_state_abbr",
+          "wind_direction_compass",
+          "created",
+          "applicable_date",
+          "min_temp",
+          "max_temp",
+          "the_temp",
+          "wind_speed",
+          "wind_direction",
+          "air_pressure",
+          "humidity",
+          "visibility",
+          "predictability"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/items/anyOf/0/properties/id",
+            "type": "integer",
+            "title": "The id schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              5875682782478336
+            ]
+          },
+          "weather_state_name": {
+            "$id": "#/items/anyOf/0/properties/weather_state_name",
+            "type": "string",
+            "title": "The weather_state_name schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Sleet"
+            ]
+          },
+          "weather_state_abbr": {
+            "$id": "#/items/anyOf/0/properties/weather_state_abbr",
+            "type": "string",
+            "title": "The weather_state_abbr schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "sl"
+            ]
+          },
+          "wind_direction_compass": {
+            "$id": "#/items/anyOf/0/properties/wind_direction_compass",
+            "type": "string",
+            "title": "The wind_direction_compass schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "SW"
+            ]
+          },
+          "created": {
+            "$id": "#/items/anyOf/0/properties/created",
+            "type": "string",
+            "title": "The created schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2021-01-01T21:23:53.784093Z"
+            ]
+          },
+          "applicable_date": {
+            "$id": "#/items/anyOf/0/properties/applicable_date",
+            "type": "string",
+            "title": "The applicable_date schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "2021-01-01"
+            ]
+          },
+          "min_temp": {
+            "$id": "#/items/anyOf/0/properties/min_temp",
+            "type": "number",
+            "title": "The min_temp schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0.0,
+            "examples": [
+              0.0050000000000000044
+            ]
+          },
+          "max_temp": {
+            "$id": "#/items/anyOf/0/properties/max_temp",
+            "type": "number",
+            "title": "The max_temp schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0.0,
+            "examples": [
+              2.395
+            ]
+          },
+          "the_temp": {
+            "$id": "#/items/anyOf/0/properties/the_temp",
+            "type": "number",
+            "title": "The the_temp schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0.0,
+            "examples": [
+              2.0700000000000003
+            ]
+          },
+          "wind_speed": {
+            "$id": "#/items/anyOf/0/properties/wind_speed",
+            "type": "number",
+            "title": "The wind_speed schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0.0,
+            "examples": [
+              3.0207261661125693
+            ]
+          },
+          "wind_direction": {
+            "$id": "#/items/anyOf/0/properties/wind_direction",
+            "type": "number",
+            "title": "The wind_direction schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0.0,
+            "examples": [
+              227.61664016383207
+            ]
+          },
+          "air_pressure": {
+            "$id": "#/items/anyOf/0/properties/air_pressure",
+            "type": "number",
+            "title": "The air_pressure schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0.0,
+            "examples": [
+              1007.0
+            ]
+          },
+          "humidity": {
+            "$id": "#/items/anyOf/0/properties/humidity",
+            "type": "integer",
+            "title": "The humidity schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              93
+            ]
+          },
+          "visibility": {
+            "$id": "#/items/anyOf/0/properties/visibility",
+            "type": "number",
+            "title": "The visibility schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0.0,
+            "examples": [
+              6.0316501630478
+            ]
+          },
+          "predictability": {
+            "$id": "#/items/anyOf/0/properties/predictability",
+            "type": "integer",
+            "title": "The predictability schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              85
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    ]
+  }
+}
