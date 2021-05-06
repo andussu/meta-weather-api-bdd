@@ -102,6 +102,8 @@ ___
 
         •  After completing the technical challenge, what would you do differently if you were asked to do the same challenge again?
 
+   > I would add public interfaces to call each API endpoint (better visibility and approach)
+   > 
    > Having extra time and more business logic/knowledge around the API endpoints, I would optimise the actual test framework and extend testing area and approach, for example the user can access each ID of weather history, focusing on ECP and BVA as there are over 60 IDs for each Location&Day combo
    > 
    > Also would focus more on payload definition and logics, but definitely by implementing POJO classes instead and adding extensive Payload Schema Validation
